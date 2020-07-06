@@ -1,8 +1,8 @@
-name: Xtension
-description: Extension on default classes to help with normal tasks
-version: 0.0.1
-author: Leo Letto
-homepage:
+name: xtension
+description: Xtension add some useful extension methods on Dart classes that help you while coding and make easier to have extensions in a single package
+version: 0.0.2
+homepage: https://github.com/Paradoxu/Xtension
+repository: https://github.com/Paradoxu/Xtension
 
 environment:
   sdk: ">=2.7.1 <3.0.0"
