@@ -36,4 +36,16 @@ Easily print any `Object` just by calling `.log` on that object, example:
 | **average** | Calculate and return the average value of this list of numbers by summing the elements of the list and dividing by the length |
 
 
+## DateTime
+
+| **Method** | **Description** |
+|--|--|
+| **withYear** | Copy the Datetime changing the year |
+| **withMonth** | Copy the Datetime changing the month |
+| **withDay** | Copy the Datetime changing the day |
+| **withHour** | Copy the Datetime changing the hour |
+| **withMinutes** | Copy the Datetime changing the minutes |
+| **withSeconds** | Copy the Datetime changing the seconds |
+| **withMillis** | Copy the Datetime changing the milliseconds |
+
 > Feel free to help this package with new extension methods by making a pull request
