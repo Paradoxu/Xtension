@@ -34,7 +34,9 @@ Easily print any `Object` just by calling `.log` on that object, example:
 | **Method** | **Description** |
 |--|--|
 | **average** | Calculate and return the average value of this list of numbers by summing the elements of the list and dividing by the length |
-
+| **sum** | Return the sum of the elements of a list |
+| **max** | Return the maximum number present on a list |
+| **min** | Return the minimum element present on a list|
 
 ## DateTime
 

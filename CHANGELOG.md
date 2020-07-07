@@ -9,3 +9,5 @@
 ## [0.0.3] - Added methods
 
 * sum: On list of numbers will return the sum of the elements
+* max: Return the maximum element on a list
+* min: REturn the minimum element on a list

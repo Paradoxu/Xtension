@@ -1,3 +1,5 @@
+import 'dart:math' as math;
+
 extension ListX<T extends num> on List<T> {
   /// Return the average value of this list
   ///
@@ -17,5 +19,17 @@ extension ListX<T extends num> on List<T> {
     if (this.length == 0) return 0;
 
     return this.reduce((a, b) => a + b) as double;
+  }
+
+  /// Return the maximum element present on the list
+  T get max {
+    if (this == null || this.length == 0) return null;
+    return this.reduce(math.max);
+  }
+
+  /// Return the minimum element present on the list
+  T get min {
+    if (this == null || this.length == 0) return null;
+    return this.reduce(math.min);
   }
 }
